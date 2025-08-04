@@ -4,8 +4,7 @@
    ```
    conda create -n bsenv python=3.10
    ```
-   > `python=3.10` : version de Python souhaitée
-   
+   > `python=3.10` : version de Python souhaitée <br>
    > `bsenv` : nom de l'environnement bank_segmentation_env
 2. Activer l'environnement
    ```
