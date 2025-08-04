@@ -9,6 +9,8 @@ Ce projet vise à segmenter les clients d'une institution bancaire à partir de 
 * Adapter les campagnes marketing selon les segments
 * Optimiser la fidélisation et les offres personnalisées
 
+---
+
 ## 📊 Données Utilisées
 
 * **Source** : [Bank Marketing Dataset — UCI](https://archive.ics.uci.edu/ml/datasets/Bank+Marketing)
@@ -37,3 +39,26 @@ Ce projet vise à segmenter les clients d'une institution bancaire à partir de 
 | euribor3m      | taux Euribor 3 mois                               | Numérique |
 | nr.employed    | nombre d'employés                                 | Numérique |
 | y              | le client a-t-il souscrit un dépôt à terme ?      | Binaire   |  
+
+---
+
+## 🧰 Environnement technique
+
+### 🔧 Prérequis
+
+* Installer [Miniconda](https://www.anaconda.com/download/) 
+> Entrer son email et choisir la distribution de Miniconda adaptée.<br>
+> S'assurer que `(base)` apparaît devant le chemin du disque dur après installation.
+
+### 💻 Technologies utilisées
+
+* Python
+* Jupyter Notebook via Miniconda
+
+### 📦 Librairies Python utilisées
+
+* `pandas` : manipulation de données
+* `matplotlib` et `seaborn` : visualisations
+* `numpy` : traitement numérique
+* `scikit-learn` : clustering (KMeans, DBSCAN, Agglomératif), PCA (réduction de dimension)
+* `umap-learn` : réduction de dimension non linéaire (très utile pour visualiser des clusters)
