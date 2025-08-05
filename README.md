@@ -1,4 +1,4 @@
-# 🏦 PRédicition de la souscription d'un dépôt à terme 
+# 🏦 Prédiction de la souscription d'un dépôt à terme 
 
 ## 📌 Objectif du Projet
 
