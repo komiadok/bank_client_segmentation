@@ -1,4 +1,4 @@
-# 🏦 Segmentation de Clients Bancaires 
+# 🏦 PRédicition de la souscription d'un dépôt à terme 
 
 ## 📌 Objectif du Projet
 
