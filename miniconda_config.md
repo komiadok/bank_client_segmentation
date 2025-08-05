@@ -17,9 +17,10 @@
    conda install anaconda::matplotlib
    conda install anaconda::seaborn
    conda install anaconda::scikit-learn
-   conda install anaconda::umap-learn
+   conda install anaconda::xgboost
+   conda install anaconda::category_encoders
    ```
 4. Installer le notebook jupyter
    ```
-   conda install anaconda::numpy
+   conda install notebook
    ```
