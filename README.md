@@ -2,12 +2,21 @@
 
 ## 📌 Objectif du Projet
 
-Ce projet vise à segmenter les clients d'une institution bancaire à partir de leurs caractéristiques démographiques et comportementales, afin de :
+Ce projet vise à prédire si les prospects d'une institution bancaire souscriront (oui/non) un dépôt à terme. Il s'agit d'un problème de classification binaire. 
+Pour y arriver, il faudra : 
 
-* Identifier les clients à forte valeur ajoutée
-* Détecter les profils à risque (emprunt, défaut)
-* Adapter les campagnes marketing selon les segments
-* Optimiser la fidélisation et les offres personnalisées
+* Analyser l'efficacité des campagnes marketing téléphonique
+  * Quels facteurs influencent le plus la souscription ?
+  * Quels segments de clients sont les plus réceptifs ?
+  * Quel est le meilleur moment (mois, jour) pour contacter un client ?
+  * Combien de contacts sont nécessaires en moyenne pour obtenir une souscription ?   
+* Tester et évaluer plusieurs modèles de machine learning 
+  * Comparer la performance de différents algorithmes de classification (logistic regression, decision tree, random forest, SVM, etc.)
+  * Evaluer les performances selon plusieurs métriques : accuracy, precision, recall, F1-score, AUC-ROC
+* Optimiser les campagnes marketing
+  * Identifier des profils types de clients susceptibles de souscrire
+  * Aider à réduire le coût des campagnes (éviter d'appeler plusieurs fois les clients peu susceptibles de répondre positivement)
+  * Fournir des recommandations ciblées pour les campagnes futures 
 
 ---
 
@@ -60,5 +69,6 @@ Ce projet vise à segmenter les clients d'une institution bancaire à partir de 
 * `pandas` : manipulation de données
 * `matplotlib` et `seaborn` : visualisations
 * `numpy` : traitement numérique
-* `scikit-learn` : clustering (KMeans, DBSCAN, Agglomératif), PCA (réduction de dimension)
-* `umap-learn` : réduction de dimension non linéaire (très utile pour visualiser des clusters)
+* `scikit-learn` : algorithmes d'apprentissage automatique
+* `xgboost` : algorithme d'apprentissage automatique
+* `category_encoders` : encodage 
