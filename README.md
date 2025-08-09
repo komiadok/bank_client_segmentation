@@ -69,6 +69,7 @@ Pour y arriver, il faudra :
 * `pandas` : manipulation de données
 * `matplotlib` et `seaborn` : visualisations
 * `numpy` : traitement numérique
+* `scipy` : calcul scientifique avancé
 * `scikit-learn` : algorithmes d'apprentissage automatique
 * `xgboost` : algorithme d'apprentissage automatique
 * `category_encoders` : encodage 
