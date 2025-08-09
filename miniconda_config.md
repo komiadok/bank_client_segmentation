@@ -16,6 +16,7 @@
    conda install anaconda::numpy
    conda install anaconda::matplotlib
    conda install anaconda::seaborn
+   conda install anaconda::scipy
    conda install anaconda::scikit-learn
    conda install anaconda::xgboost
    conda install anaconda::category_encoders
